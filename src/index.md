@@ -3,7 +3,7 @@ layout: default
 permalink: "/"
 ---
 
-<h1 class="text-4xl font-bold text-center text-blue-500">homepage stuff here</h1>
+<h1 class="text-4xl font-bold text-center text-blue-500">homepage stuff hereee</h1>
 
 <div class="show-hide" data-controller="show-hide">
   <button data-action="click->show-hide#toggle">Show it!</button>
