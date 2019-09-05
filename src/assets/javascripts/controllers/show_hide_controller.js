@@ -12,7 +12,6 @@ export default class extends Controller {
   static targets = ['showHideMe', 'trigger']
 
   connect() {
-    console.log('aaa');
     this.toggleClass = this.data.get('class') || 'hidden';
     this.toggleIndicatorClass = this.data.get('class') || 'shown';
   }
