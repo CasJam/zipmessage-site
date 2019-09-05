@@ -1,0 +1,10 @@
+<header>
+
+  <a href="{{ '/' | relative_url }}">New Website</a>
+
+  <nav>
+    <a href="{{ '/about' | relative_url }}" class="{% if page.name == 'about.md' %} active{% endif %}">About</a>
+    <a href="{{ '/blog' | relative_url }}" class="{% if page.name == 'blog.md' %} active{% endif %}">Blog</a>
+  </nav>
+
+</header>
