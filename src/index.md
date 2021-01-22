@@ -41,68 +41,56 @@ image: /assets/images/meta/thready-twitter-thread-app.jpg
         Craft the perfect threads.  Tweet them now or later.
       </p>
       <div class="mt-12">
-        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="flex flex-wrap justify-center">
           
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+          <div class="p-6 w-full sm:w-1/2">
+            <div class="flow-root bg-gray-50 bg-opacity-40 rounded-lg">
+              <div class="">
+                <a href="/twitter-threads-editor">
+                  <img class="w-full rounded-t mb-8" src="/assets/images/twitter-thread-editor.jpg" alt="Twitter Thready Editor" />
+                </a>
+                <h3 class="text-lg p-0 mb-4 font-medium text-gray-900 tracking-tight">
                   <a href="/twitter-threads-editor" 
                      class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Tweet Thread Editor
                   </a>
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="px-4 pb-4 text-base text-gray-500">
                   Save drafts, insert, reorder, edit and perfect your Tweets before you publishing to the world.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+          <div class="p-6 w-full sm:w-1/2">
+            <div class="flow-root bg-gray-50 bg-opacity-40 rounded-lg">
+              <div class="">
+                <a href="/schedule-twitter-threads">
+                  <img class="w-full rounded-t mb-8" src="/assets/images/schedule-twitter-threads.jpg" alt="Schedule Twitter Threads" />
+                </a>
+                <h3 class="text-lg p-0 mb-4 font-medium text-gray-900 tracking-tight">
                   <a href="/schedule-twitter-threads" 
                      class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Schedule Tweets
                   </a>
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="px-4 pb-4 text-base text-gray-500">
                   Schedule your Twitter threads to publish at just the right time in the future.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+          <div class="p-6 w-full sm:w-1/2">
+            <div class="flow-root bg-gray-50 bg-opacity-40 rounded-lg">
+              <div class="">
+                <a href="/text-to-tweets">
+                  <img class="w-full rounded-t mb-8" src="/assets/images/convert-article-to-tweets.jpg" alt="Convert Text to Tweets" />
+                </a>
+                <h3 class="text-lg p-0 mb-4 font-medium text-gray-900 tracking-tight">
                   <a href="/text-to-tweets" 
                      class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Threadify Long Text
                   </a>
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="px-4 pb-4 text-base text-gray-500">
                   Instantly turn articles or other long text into a seamless Twitter thread, ready to publish.
                 </p>
               </div>
@@ -126,76 +114,45 @@ image: /assets/images/meta/thready-twitter-thread-app.jpg
         Publish to clients' Twitter accounts or manage multiple brands. 
       </p>
       <div class="mt-12">
-        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="flex flex-wrap justify-center">
           
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+          <div class="p-6 w-full sm:w-1/2">
+            <div class="flow-root bg-gray-50 bg-opacity-40 rounded-lg">
+              <div class="">
+                <a href="/multiple-twitter-accounts">
+                  <img class="w-full rounded-t mb-8" src="/assets/images/manage-multiple-twitter-accounts.jpg" alt="Manage Multiple Twitter Accounts" />
+                </a>
+                <h3 class="text-lg p-0 mb-4 font-medium text-gray-900 tracking-tight">
                   <a href="/multiple-twitter-accounts" 
                      class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Manage Multiple Handles
                   </a>
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="px-4 pb-4 text-base text-gray-500">
                   Connect multiple Twitter handles and easily switch between them.  Manage all your brands (or clients' brands) in one place.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+          <div class="p-6 w-full sm:w-1/2">
+            <div class="flow-root bg-gray-50 bg-opacity-40 rounded-lg">
+              <div class="">
+                <a href="/preview-twitter-threads">
+                  <img class="w-full rounded-t mb-8" src="/assets/images/preview-twitter-threads.jpg" alt="Share-able Previews" />
+                </a>
+                <h3 class="text-lg p-0 mb-4 font-medium text-gray-900 tracking-tight">
                   <a href="/preview-twitter-threads" 
                      class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Share-able Previews
                   </a>
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="px-4 pb-4 text-base text-gray-500">
                   Share previews of Twitter threads with others before the go-ahead to publish.
                 </p>
               </div>
             </div>
           </div>
-
-          <div class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-              <div class="-mt-6">
-                <div>
-                  <span class="inline-flex items-center justify-center p-3 bg-blue-300 rounded-md shadow-lg">
-                    <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                  </span>
-                </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                  <a href="/text-to-tweets" 
-                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Promote Long Content
-                  </a>
-                </h3>
-                <p class="mt-5 text-base text-gray-500">
-                  Turn blog articles and other content into Twitter threads and give them an extra boost on the network made for sharing.
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
+        
       </div>
     </div>
   </div>
