@@ -38,7 +38,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 source: src
-include: ['_pages'] # so that I can have a _pages directory to store my pages
+include: ['_pages', _redirects] # so that I can have a _pages directory to store my pages
 exclude: ['assets/javascripts']
 
 # Exclude from processing.
