@@ -30,6 +30,7 @@ social:
   name: Thready # person or company name
   links:
     - https://twitter.com/thready_app
+default_image: "https://briancasel.com/assets/images/meta/thready-twitter-thread-app.jpg"
 
 
 # Build settings
