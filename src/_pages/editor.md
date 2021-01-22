@@ -2,7 +2,7 @@
 layout: page
 title: Twitter Thread Editor
 description:  "Thready is an app that lets you draft, edit, schedule and publish your Tweets and Twitter threads."
-permalink: /features/editor
+permalink: /twitter-threads-editor
 image: /assets/images/twitter-thread-editor.jpg
 ---
 

@@ -52,7 +52,11 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Tweet Thread Editor</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/twitter-threads-editor" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Tweet Thread Editor
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Save drafts, insert, reorder, edit and perfect your Tweets before you publishing to the world.
                 </p>
@@ -70,7 +74,11 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Schedule Tweets</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/schedule-twitter-threads" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Schedule Tweets
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Schedule your Twitter threads to publish at just the right time in the future.
                 </p>
@@ -88,7 +96,11 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Threadify Long Text</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/text-to-tweets" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Threadify Long Text
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Instantly turn articles or other long text into a seamless Twitter thread, ready to publish.
                 </p>
@@ -125,7 +137,11 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Manage Multiple Handles</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/multiple-twitter-accounts" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Manage Multiple Handles
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Connect multiple Twitter handles and easily switch between them.  Manage all your brands (or clients' brands) in one place.
                 </p>
@@ -144,7 +160,11 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Share-able Previews</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/preview-twitter-threads" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Share-able Previews
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
                   Share previews of Twitter threads with others before the go-ahead to publish.
                 </p>
@@ -162,9 +182,13 @@ permalink: "/"
                     </svg>
                   </span>
                 </div>
-                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Promote Content</h3>
+                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                  <a href="/text-to-tweets" 
+                     class="font-medium text-dark-blue cursor-pointer hover:text-yellow-500">Promote Long Content
+                  </a>
+                </h3>
                 <p class="mt-5 text-base text-gray-500">
-                  Turn blog posts into Twitter threads and give them an extra boost on the network made for sharing.
+                  Turn blog articles and other content into Twitter threads and give them an extra boost on the network made for sharing.
                 </p>
               </div>
             </div>
@@ -177,7 +201,7 @@ permalink: "/"
 
 
   <div id="pricing" 
-       class="relative bg-white mb-12 sm:pt-24 lg:pt-32" 
+       class="relative bg-white mb-12 sm:pt-12" 
        data-controller="pricing" 
        data-pricing-active-value="monthly">
     <div class="mx-auto max-w-md px-4 text-center mb-12
