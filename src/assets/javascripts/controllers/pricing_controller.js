@@ -23,7 +23,9 @@ export default class extends Controller {
       this.activeValue = "yearly";
 
       this.monthlyPlansTarget.classList.add("hidden");
+      this.monthlyPlansTarget.classList.add("sm:hidden");
       this.yearlyPlansTarget.classList.remove("hidden");
+      this.yearlyPlansTarget.classList.remove("sm:hidden");
 
       this.toggleButtonTarget.classList.add("bg-yellow-500");
       this.toggleButtonTarget.classList.remove("bg-gray-100");
@@ -33,7 +35,9 @@ export default class extends Controller {
     } else {
       this.activeValue = "monthly";
       this.monthlyPlansTarget.classList.remove("hidden");
+      this.monthlyPlansTarget.classList.remove("sm:hidden");
       this.yearlyPlansTarget.classList.add("hidden");
+      this.yearlyPlansTarget.classList.add("sm:hidden");
 
       this.toggleButtonTarget.classList.remove("bg-yellow-500");
       this.toggleButtonTarget.classList.add("bg-gray-100");

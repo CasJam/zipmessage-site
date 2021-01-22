@@ -4,9 +4,13 @@ title: Contact
 permalink: /contact
 ---
 
-<main class="mt-16 mx-auto max-w-5xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+<main class="mt-16 mx-auto max-w-3xl px-4 mb-24 sm:mt-24 sm:px-6 lg:mt-32">
 
-  <form id="contact-form">
+  <h2 class="mt-2 mb-12 text-3xl font-extrabold tracking-tight sm:text-4xl">
+    Get in touch
+  </h2>
+
+  <form id="contact-form" netlify>
 
     <div class="mb-8">
       <input class="w-full" id="name" type="text" name="name" placeholder="Your name" value="">
@@ -26,7 +30,7 @@ permalink: /contact
       <textarea class="w-full h-40" id="message" name="message" placeholder="Message"></textarea>
     </div>
 
-    <button type="submit">Send</button>
+    <button class="btn" type="submit">Send</button>
   </form>
 
 </main>

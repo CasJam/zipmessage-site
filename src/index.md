@@ -19,15 +19,6 @@ permalink: "/"
          class="btn">Try it Free</a>
     </div>
     <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-      <svg class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
-        <defs>
-          <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-          </pattern>
-        </defs>
-        <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
-        <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
-      </svg>
       <div class="relative mx-auto w-full lg:max-w-md">
         <span class="sr-only">Twitter thread</span>
         <img class="w-full" 
@@ -215,9 +206,11 @@ permalink: "/"
       </div>
     </div>
         
-    <div class="flex mx-auto justify-center max-w-3xl" 
+    <div class="mx-auto max-w-3xl 
+                sm:flex sm:justify-center" 
          data-target="pricing.monthlyPlans">
-      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-2/5">
+      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-full mb-12
+                  sm:w-2/5 sm:mb-0 sm:mx-4">
         <div class="p-6">
           <h2 class="text-lg pt-0 font-medium text-blue-300 mb-2">Basic</h2>
           <p class="text-sm text-gray-500 mb-8">For publishing your Twitter threads</p>
@@ -247,7 +240,8 @@ permalink: "/"
         </div>
       </div>
 
-      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-2/5 ml-8">
+      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-full
+                  sm:w-2/5 sm:mx-4">
         <div class="p-6">
           <h2 class="text-lg pt-0 leading-6 font-medium text-blue-300 mb-2">Plus</h2>
           <p class="text-sm text-gray-500 mb-8">For agencies & brands</p>
@@ -287,10 +281,12 @@ permalink: "/"
       </div>
     </div>
 
-    <div class="hidden flex mx-auto justify-center max-w-3xl" 
+    <div class="hidden mx-auto max-w-3xl 
+                sm:hidden sm:flex sm:justify-center" 
          data-target="pricing.yearlyPlans">
       
-      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-2/5">
+      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-full mb-8
+                  sm:w-2/5 sm:mb-0 sm:mx-4">
         <div class="p-6">
           <h2 class="text-lg pt-0 leading-6 font-medium text-blue-300 mb-2">Basic</h2>
           <p class="text-sm text-gray-500 mb-8">For publishing your Twitter threads</p>
@@ -322,7 +318,8 @@ permalink: "/"
         </div>
       </div>
 
-      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-2/5 ml-8">
+      <div class="bg-white border border-gray-100 rounded shadow-sm divide-y divide-gray-100 w-full
+                  sm:w-2/5 sm:mx-4">
         <div class="p-6">
           <h2 class="text-lg pt-0 leading-6 font-medium text-blue-300 mb-2">Plus</h2>
           <p class="text-sm text-gray-500 mb-8">For agencies & brands</p>
