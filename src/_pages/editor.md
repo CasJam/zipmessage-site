@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Editor
+title: Twitter Thread Editor
+description:  "Thready is an app that lets you draft, edit, schedule and publish your Tweets and Twitter threads."
 permalink: /features/editor
 image: /assets/images/twitter-thread-editor.jpg
 ---
@@ -12,7 +13,7 @@ image: /assets/images/twitter-thread-editor.jpg
 
   <h1 class="text-2xl">An editor for your Twitter threads</h1>
 
-  <p class="max-w-md mx-auto">Thready gives you a simple and clean interface for drafting, editing, and publishing your Tweets and Twitter threads.</p>
+  <p class="max-w-md mx-auto">Thready gives you a simple and clean interface for drafting, editing, and publishing your Tweets and Twitter threads.  Insert Tweets, reorder them, click-to-edit, and more.</p>
 </div>
 
 <div class="mt-16 flex flex-col items-center">
