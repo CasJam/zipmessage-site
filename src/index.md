@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/"
+image: /assets/images/meta/thready-twitter-thread-app.jpg
 ---
 
 <main class="mt-16 mx-auto max-w-5xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
