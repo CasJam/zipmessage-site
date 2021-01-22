@@ -55,7 +55,7 @@ image: /assets/images/meta/thready-twitter-thread-app.jpg
                   </a>
                 </h3>
                 <p class="px-4 pb-4 text-base text-gray-500">
-                  Save drafts, insert, reorder, edit and perfect your Tweets before you publishing to the world.
+                  Save drafts, insert, reorder, edit and perfect your Tweets before publishing to the world.
                 </p>
               </div>
             </div>
