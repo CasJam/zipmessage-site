@@ -13,7 +13,7 @@ permalink: "/"
         </span>
       </h1>
       <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-        Meet thready.  The easiest way to draft, schedule and publish Twitter threads (a.k.a. <em>"Tweet storms"</em>). 
+        Meet Thready.  The easiest way to draft, schedule and publish Twitter threads (a.k.a. <em>"Tweet storms"</em>). 
       </p>
       <a href="https://app.thready.io/signup" 
          class="btn">Try it Free</a>
