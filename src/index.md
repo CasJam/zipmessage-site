@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: "/"
-image: /assets/images/meta/thready-twitter-thread-app.jpg
+image: /assets/images/zipmessage-og.png
 ---
 
 <main class="mt-16 mx-auto max-w-5xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
@@ -10,7 +10,7 @@ image: /assets/images/meta/thready-twitter-thread-app.jpg
     <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
       <h1>
         <span class="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-          <span class="block text-gray-900">Create amazing Twitter threads.</span>
+          <span class="block text-gray-900">ZipMessage</span>
         </span>
       </h1>
       <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">

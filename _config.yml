@@ -18,18 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Thready
+title: ZipMessage
 description: >- # this means to ignore newlines until "baseurl:"
-  Thready is an app that lets you draft, schedule and publish Twitter Threads (a.k.a Tweet Storms).  Connect multiple Twitter accounts for all your brands.
+  ZipMessage is the easiest way to start an async video conversation with customers or colleagues. Ask anyone to share their screen or camera.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thready.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zipmessage.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
-  username: thready_app
+  username: ZipMessageApp
   card: summary  # the twitter card type, it should usually be 'summary'
 social:
-  name: Thready # person or company name
+  name: ZipMessage # person or company name
   links:
-    - https://twitter.com/thready_app
+    - https://twitter.com/ZipMessageApp
 default_image: "https://briancasel.com/assets/images/meta/thready-twitter-thread-app.jpg"
 
 
