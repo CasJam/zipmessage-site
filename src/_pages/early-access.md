@@ -18,7 +18,7 @@ body_classes: "bg-brand-light-blue-200"
     Please answer a few questions to be added to our early access queue for <span class="italic">ZipMessage.</span>
   </p>
 
-  <form action="/early-access-success" id="early-access-survey-form" netlify>
+  <form action="/early-access-success" id="early-access-survey-form" data-controller="form" netlify>
 
     <input type="hidden" name="optin-page" id="optin_page" value="" 
            data-controller="hidden-field" />
@@ -54,7 +54,8 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                 name="async_use_cases" 
-                id="async_use_cases"></textarea>
+                id="async_use_cases" 
+                data-action="keyup->form#preventSubmitOnRetern"></textarea>
     </div>
 
     <div class="mb-8 
@@ -79,7 +80,8 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                        name="why_zipmessage" 
-                       id="why_zipmessage"></textarea>
+                       id="why_zipmessage"
+                       data-action="keyup->form#preventSubmitOnRetern"></textarea>
     </div>
 
     <div class="mb-8 
@@ -91,7 +93,8 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                        name="questions" 
-                       id="questions"></textarea>
+                       id="questions"
+                       data-action="keyup->form#preventSubmitOnRetern"></textarea>
     </div>
 
     <div class="mb-8 
