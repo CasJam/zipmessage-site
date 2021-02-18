@@ -2,10 +2,12 @@
 layout: page
 title: Early Access
 permalink: /early-access
+title_tag: "Request early access | ZipMessage"
+meta_description: "ZipMessage is the easiest way to start an async video conversation with customers or colleagues.  Request an early access invite."
 body_classes: "bg-brand-light-blue-200"
 ---
 
-<div class="px-8 pt-0 pb-64  
+<div class="px-8 pt-12 pb-64  
             lg:max-w-4xl lg:mx-auto lg:pb-96">
 
   <h1 class="text-4xl mb-4">

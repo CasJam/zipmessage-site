@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/remote-video-messaging-software"
+title_tag: "Remote video messaging software | ZipMessage"
+meta_description: "ZipMessage is the easiest way for your remote team to have asynchronous video conversations."
 image: /assets/images/zipmessage-og.png
 ---
 
@@ -8,7 +10,6 @@ image: /assets/images/zipmessage-og.png
 <div class="relative pt-16 pb-64 px-8 text-center flex flex-col justify-center items-center bg-gradient-to-b from-brand-light-blue-200 to-brand-light-blue-300
             lg:pt-36 lg:px-36 lg:pb-72 
             xl:pt-52 xl:pb-96">
-  
   <span class="flex items-center text-green-500 font-medium italic inline-block py-1 px-4 ring-2 ring-green-400 rounded-full text-base mb-8 
                md:text-lg">
     <svg class="w-5 h-5 mr-3 text-green-500" version="1.1" xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">

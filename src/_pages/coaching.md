@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/video-coaching-software"
+title_tag: "Video coaching & teaching software | ZipMessage"
+meta_description: "ZipMessage is the easiest way run your 1-to-1 and small group coaching and teaching sessions on video asynchronously."
 image: /assets/images/zipmessage-og.png
 ---
 
@@ -9,7 +11,7 @@ image: /assets/images/zipmessage-og.png
             lg:pt-36 lg:px-36 lg:pb-72 
             xl:pt-52 xl:pb-96">
   
-  <span class="flex items-center text-yellow-500 font-medium italic inline-block py-1 px-4 ring-2 ring-yellow-400 rounded-full text-base mb-8 
+  <span class="flex items-center text-yellow-500 font-medium italic inline-block py-1 px-4 ring-2 ring-yellow-400 rounded-full text-base mb-8 bg-white
                md:text-lg">
     <svg class="w-5 h-5 mr-3 text-yellow-500 relative top-1px" version="1.1" xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
       <path d="M581.6 321.1c17.2-29.3 26.4-62.7 26.4-97.1 0-105.9-86.1-192-192-192-77.2 0-144 45.9-174.4 111.8-20.1-10.3-42.6-15.8-65.6-15.8-79.4 0-144 64.6-144 144s64.6 144 144 144c42.8 0 82.9-19.2 109.9-50.9 27.3 25.2 62 42.6 100.4 48.6-7.4 11.1-13.7 23-18.8 35.5-37.5 2-70.4 6.6-98.8 13.7-25.2-10-56.2-15-92.7-15-39.7 0-73.1 5.9-99.1 17.7-23.6 10.7-41.9 26.4-54.5 46.7-22.4 36.1-22.4 79.8-22.4 111.7 0 4.3 1.7 8.4 4.8 11.4 3 3 7 4.6 11.2 4.6 0.1 0 0.2 0 0.2 0l111.8-1.7c0 0.6 0 1.1 0 1.7v16c0 8.8 7.2 16 16 16h266c37.9 39.4 91.1 64 150 64 114.7 0 208-93.3 208-208 0-107.4-81.8-196-186.4-206.9zM176 384c-61.8 0-112-50.2-112-112s50.2-112 112-112c19.3 0 38 4.9 54.6 14.2-4.3 15.9-6.6 32.6-6.6 49.8 0 44.1 14.9 84.8 40 117.2-20.9 26.6-53.3 42.8-88 42.8zM288 224c0-70.6 57.4-128 128-128s128 57.4 128 128c0 29.6-10.2 58.1-28.8 80.9 0 0 0 0.1-0.1 0.1-0.1 0.1-0.2 0.3-0.4 0.4 0 0.1-0.1 0.1-0.1 0.2-0.1 0.1-0.2 0.3-0.4 0.4 0 0-0.1 0.1-0.1 0.1-0.6 0.7-1.2 1.4-1.8 2.1v0c-23.9 27.4-58 43.2-94.4 43.7-0.1 0-0.1 0-0.2 0-0.3 0-0.5 0-0.8 0-0.1 0-0.1 0-0.2 0-0.3 0-0.5 0-0.8 0-70.5 0.1-127.9-57.3-127.9-127.9zM32.1 607.8c0.5-26.1 3-55.2 17.5-78.6 20.5-33.1 61.9-49.2 126.4-49.2 13.9 0 26.8 0.8 38.6 2.3-21.5 10.6-38.8 23.6-52.2 39.3-23.5 27.4-31 58.1-33.3 84.7l-97 1.5zM192 640c0-26.8 0-54.6 19-76.7 22.8-26.6 70.3-43 141.4-48.8-0.3 4.5-0.4 9-0.4 13.6 0 41.2 12 79.7 32.8 112h-192.8zM560 704c-97 0-176-79-176-176s79-176 176-176 176 79 176 176-79 176-176 176z"></path>

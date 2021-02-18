@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Contact
+title_tag: "Contact | ZipMessage"
 permalink: /contact
 body_classes: "bg-brand-light-blue-200"
 ---
 
-<div class="px-8 pt-0 pb-64  
+<div class="px-8 pt-12 pb-64 w-full
             lg:max-w-4xl lg:mx-auto lg:pb-96">
 
   <h1 class="text-4xl mb-12">

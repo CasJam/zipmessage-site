@@ -2,6 +2,7 @@
 layout: default
 permalink: "/"
 image: /assets/images/zipmessage-og.png
+title_tag: "ZipMessage | Asynchronous video messaging software"
 ---
 
 <!-- Hero -->
@@ -14,7 +15,7 @@ image: /assets/images/zipmessage-og.png
              lg:leading-14
              xl:text-6xl xl:leading-18">
     Video messaging with customers.<br />
-    Zero friction.
+    Zero friction. 
   </h1>
 
   <p class="text-xl text-brand-blue-400 weight-medium mx-auto

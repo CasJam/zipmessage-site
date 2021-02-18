@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/customer-support"
+title_tag: "Video customer support software | ZipMessage"
+meta_description: "ZipMessage is the easiest way to ask customers to record videos of their screen or camera more effecient customer support."
 image: /assets/images/zipmessage-og.png
 ---
 

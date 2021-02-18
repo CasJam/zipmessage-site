@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: "/video-recruiting-software"
+title_tag: "Video recruiting software | ZipMessage"
+meta_description: "ZipMessage is the easiest way to ask candidates to pre-record their interviews for more effecient recruiting."
 image: /assets/images/zipmessage-og.png
 ---
 

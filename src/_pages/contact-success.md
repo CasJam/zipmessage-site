@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+title_tag: "Contact | ZipMessage"
 permalink: /contact-success
 body_classes: "bg-brand-light-blue-200"
 ---

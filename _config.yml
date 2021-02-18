@@ -30,7 +30,7 @@ social:
   name: ZipMessage # person or company name
   links:
     - https://twitter.com/ZipMessageApp
-default_image: "https://briancasel.com/assets/images/meta/thready-twitter-thread-app.jpg"
+default_image: "https://zipmessage.com/assets/images/zipmessage-og.png"
 
 
 # Build settings
