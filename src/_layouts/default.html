@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body class="h-full <%= yield :body_classes %>" 
+  <body class="h-full {{ page.body_classes }}" 
         data-controller="mobile-nav static--early-access">
 
     {%- include header.html -%}

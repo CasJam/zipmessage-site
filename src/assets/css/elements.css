@@ -31,7 +31,7 @@ a {
 }
 
 h1, h2, h3, h4 {
-  @apply font-headers text-brand-blue-500 font-medium;
+  @apply font-headers text-brand-blue-500 font-semibold;
 }
 
 ul {

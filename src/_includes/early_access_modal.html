@@ -7,13 +7,13 @@
               lg:my-auto lg:mx-auto lg:p-8" 
        data-target="static--early-access.modalBox">
 
-    <h3 class="lg:text-3xl lg:mb-2 lg:mt-2">Request your invite</h3>
+    <h3 class="font-semibold lg:text-3xl lg:mb-2 lg:mt-2">Request your invite</h3>
 
     <p class="mb-8 px-8 font-medium text-brand-blue-400 
               lg:text-lg">Reserve your spot to get early access to <span class="italic">ZipMessage</span>.  First beta invites start releasing in Spring, 2021.</p>
 
-
-    <form id="early-access-email-form" netlify>
+    <form action="/early-access?page={{ include.page }}" 
+          id="early-access-email-form" netlify>
 
       <input type="hidden" value="{{ include.page }}" name="page">
 
