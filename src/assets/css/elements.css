@@ -24,7 +24,7 @@ a {
 
   &:hover,
   &:focus {
-    @apply text-brand-red-800;
+    @apply text-brand-blue-500;
 
     transform: none;
   }
