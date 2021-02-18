@@ -18,7 +18,8 @@ body_classes: "bg-brand-light-blue-200"
 
   <form action="/early-access-success" id="early-access-survey-form" netlify>
 
-    <input type="hidden" name="early_access_survey[optin_path]" id="early_access_survey_optin_path" />
+    <input type="hidden" name="optin-page" id="optin_page" value="" 
+           data-controller="hidden-field" />
 
     <div class="mb-8 
                 lg:mb-12">
@@ -51,8 +52,7 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                 name="async_use_cases" 
-                id="async_use_cases">
-      </textarea>
+                id="async_use_cases"></textarea>
     </div>
 
     <div class="mb-8 
@@ -77,8 +77,7 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                        name="why_zipmessage" 
-                       id="why_zipmessage">
-      </textarea>
+                       id="why_zipmessage"></textarea>
     </div>
 
     <div class="mb-8 
@@ -90,8 +89,7 @@ body_classes: "bg-brand-light-blue-200"
                        lg:px-6 lg:py-5 
                        focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
                        name="questions" 
-                       id="questions">
-      </textarea>
+                       id="questions"></textarea>
     </div>
 
     <div class="mb-8 
