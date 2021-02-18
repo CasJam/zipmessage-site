@@ -2,35 +2,71 @@
 layout: page
 title: Contact
 permalink: /contact
+body_classes: "bg-brand-light-blue-200"
 ---
 
-<main class="mt-16 mx-auto max-w-3xl px-4 mb-24 sm:mt-24 sm:px-6 lg:mt-32">
+<div class="px-8 pt-0 pb-64  
+            lg:max-w-4xl lg:mx-auto lg:pb-96">
 
-  <h2 class="mt-2 mb-12 text-3xl font-extrabold tracking-tight sm:text-4xl">
-    Get in touch
-  </h2>
+  <h1 class="text-4xl mb-12">
+    Contact
+  </h1>
 
-  <form id="contact-form" netlify>
+  <form action="/contact-success" id="contact-form" netlify>
 
-    <div class="mb-8">
-      <input class="w-full" id="name" type="text" name="name" placeholder="Your name" value="">
-    </div>
-    
-    <div class="mb-8">
-      <div data-sk-error="email" class="pb-2 font-weight-400 text-error text-sm"></div>
-      <input class="w-full" id="email" type="email" name="email" placeholder="Email" value="">
-    </div>
-    
-    <div class="mb-8">
-      <input class="w-full" id="subject" type="text" name="subject" placeholder="Subject" value="">
-    </div>
-    
-    <div class="mb-8">
-      <div data-sk-error="message" class="pb-2 font-weight-400 text-error text-sm"></div>
-      <textarea class="w-full h-40" id="message" name="message" placeholder="Message"></textarea>
+    <div class="mb-8 
+                lg:mb-12">
+      <label class="text-lg font-semibold text-brand-blue-400">
+        Your name:
+      </label>
+      <input placeholder="Name" 
+             class="px-5 py-4 rounded border border-brand-blue-300 w-full text-xl text-brand-blue-500 font-medium 
+                    lg:px-6 lg:py-5 
+                    focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
+             type="text" 
+             name="name" id="name" />
     </div>
 
-    <button class="btn" type="submit">Send</button>
+    <div class="mb-8 
+                lg:mb-12">
+      <label class="text-lg font-semibold text-brand-blue-400">
+        Email:
+      </label>
+      <input placeholder="Email address" 
+             class="px-5 py-4 rounded border border-brand-blue-300 w-full text-xl text-brand-blue-500 font-medium 
+                    lg:px-6 lg:py-5 
+                    focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
+             type="email" name="email" id="email" />
+    </div>
+
+    <div class="mb-8 
+                lg:mb-12">
+      <label class="text-lg font-semibold text-brand-blue-400">
+        Subject
+      </label>
+      <input placeholder="subject" 
+             class="px-5 py-4 rounded border border-brand-blue-300 w-full text-xl text-brand-blue-500 font-medium 
+                    lg:px-6 lg:py-5 
+                    focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
+             type="text" 
+             name="subject" id="subject" />
+    </div>
+
+    <div class="mb-8 
+                lg:mb-12">
+      <label class="text-lg font-semibold text-brand-blue-400">
+        Message
+      </label>
+      <textarea class="px-5 py-4 rounded border border-brand-blue-300 w-full text-xl text-brand-blue-500 font-medium 
+                       lg:px-6 lg:py-5 
+                       focus:ring-brand-red-500 focus:border-brand-red-500 focus:bg-white" 
+                       name="message" 
+                       id="message"></textarea>
+    </div>
+
+    <button name="button" type="submit" class="btn btn-primary w-full flex justify-center text-lg italic py-6">
+      <span>Send</span>
+    </button>            
   </form>
 
-</main>
+</div>
