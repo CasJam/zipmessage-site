@@ -1,98 +1,56 @@
-html {
-  font-family: canada-type-gibson, sans-serif;
-  font-size: 20px;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  @apply text-gray-700;
+}
+.main {
+  flex: 1;
 }
 
-body {
-  @apply text-gray-500;
+html {
+  @apply font-sans antialiased leading-normal;
+  font-size: 14px;
+}
+
+@media (min-width: 420px) {
+  html {
+    font-size:16px;
+  }
 }
 
 a {
-  @apply text-yellow-500 font-normal;
-}
-a:hover,
-a:active {
-  @apply text-dark-blue;
-}
+  @apply text-brand-red-500;
 
-h1, h2, h3, h4, h5, h6 {
-  @apply text-dark-blue font-bold;
-}
+  &:hover,
+  &:focus {
+    @apply text-brand-red-800;
 
-h1 {
-  /* TODO: I don't know what font-headers is  */
-  /* @apply font-headers font-semibold text-3xl mb-4 leading-snug; */
-  @apply font-semibold text-3xl mb-4 leading-snug;
-}
-@screen md {
-  h1 {
-    @apply text-4xl;
+    transform: none;
   }
 }
 
-h2 {
-  @apply font-semibold text-lg mb-8 pt-4;
-}
-@screen md {
-  h2 {
-    @apply text-xl;
-  }
-}
-
-h3 {
-  @apply text-base mb-6 pt-4 font-semibold;
-}
-
-p {
-  @apply mb-6;
-}
-
-strong {
-  @apply font-semibold;
-}
-
-hr {
-  /* TODO: border-black-light doesn't exist */
-  /* @apply border border-black-light my-16 w-1/6; */
-  @apply border my-16 w-1/6;
-  border-width: 3px;
+h1, h2, h3, h4 {
+  @apply font-headers text-brand-blue-500 font-medium;
 }
 
 ul {
-  @apply list-disc ml-5 mb-6;
-}
-
-ul ul,
-ul ul ul,
-ul ul ul ul {
-  @apply mt-4 mb-4;
+  @apply list-disc list-inside;
 }
 
 ol {
-  @apply list-decimal ml-4 mb-6;
+  @apply list-decimal list-inside;
 }
 
-ol ol,
-ol ol ol,
-ol ol ol ol {
-  @apply mt-4 mb-4;
+.table {
+  @apply w-full;
+  th, td {
+    @apply align-top;
+  }
+
 }
 
-li {
-  @apply mb-2;
+.table-responsive {
+  @apply block w-full overflow-x-auto;
+  -webkit-overflow-scrolling: touch;
 }
-
-code {
-  @apply bg-gray-100 rounded-sm text-sm inline-block;
-  padding: 1px 6px;
-}
-
-figure {
-  @apply mb-8 pt-4;
-}
-
-blockquote {
-  @apply border border-0 border-l-8 border-gray-100 pl-4 italic;
-}
-
-
