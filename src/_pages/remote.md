@@ -92,7 +92,7 @@ image: /assets/images/zipmessage-og.png
       
       <div class="flex-1 text-base text-white font-medium 
                   lg:text-xl lg:pb-4 lg:border-b-2 lg:border-green-500">
-        Share your ZipMessage link with a customer to invite them to a conversation.
+        Share your ZipMessage link with a colleague to invite them to a conversation.
       </div>
     </div>
 

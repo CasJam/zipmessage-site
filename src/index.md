@@ -281,9 +281,150 @@ title_tag: "ZipMessage | Asynchronous video messaging software"
 </div>
 <!--/ Use Cases -->
 
-{%- include integrations.html -%}
+<!-- Features -->
+<div class="bg-gradient-to-b from-brand-light-blue-300 to-white text-center py-20 px-8 relative -top-2px 
+            md:pt-28 
+            lg:pt-36">
 
-<div class="bg-white text-center pb-20 px-8 relative -top-2px 
+  <h2 class="text-3xl mb-4 px-8 font-semibold tracking-tight
+             md:text-5xl">Made for asynchronous conversations</h2>
+
+  <p class="text-brand-blue-400 text-xl font-medium mb-12
+            md:text-2xl md:w-3/4 md:mx-auto md:mb-20
+            lg:w-1/2 
+            xl:w-1/3">Friction-less for your recipients to join you in an <span class="italic">&ldquo;async&rdquo;</span> video, screen, or text conversation.</p>
+
+  <div class="max-w-6xl mx-auto text-left
+              md:grid md:gap-x-4 md:gap-y-2 md:grid-cols-2 
+              lg:gap-y-4
+              xl:md-gap-x-24 xl:mx-auto xl:px-1 xl:gap-x-20">
+    
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+          <path d="M669.8 622.7c-22.7-16.3-49.2-29.7-75.5-41.4 44.5-7.8 78.2-21.2 103.5-40.7 3.5-2.7 5.8-6.8 6.2-11.2s-1.1-8.8-4-12.1c-57.1-63.5-92-109.3-92-245.3 0-87.2-15.8-151.1-48.2-195.5-18.6-25.5-43-44.9-72.4-57.6-28.9-12.5-63.7-18.9-103.4-18.9s-74.5 6.4-103.4 18.9c-29.4 12.7-53.8 32.1-72.4 57.6-32.4 44.4-48.2 108.3-48.2 195.5 0 136-34.9 181.8-91.9 245.3-3 3.3-4.4 7.7-4 12.1s2.6 8.5 6.2 11.2c25.3 19.5 59.1 32.9 103.5 40.7-26.3 11.7-52.8 25.1-75.5 41.4-44 31.6-66.3 69.7-66.3 113.3v16c0 8.8 7.2 16 16 16h672c8.8 0 16-7.2 16-16v-16c0-43.6-22.3-81.7-66.2-113.3zM257.5 639.2c-0.1-7.8-0.2-15.7-0.4-23.7 19-8.1 36.6-16.2 51-25 10.9-6.6 43.9-26.7 43.9-62.5v-7c0-32-16.3-61.2-43.6-78-53.8-33.2-80.8-82.8-84.1-155.3 49.6-2.1 93.8-11.6 131.6-28.6 43.3-19.3 79.7-48.8 108.6-87.7 22.3 26.6 48.2 43.2 77.2 49.6 1.5 15.7 2.2 32.7 2.2 51 0 81.2-26.8 135.5-84.4 171-27.3 16.8-43.6 46-43.6 78v7c0 35.8 33 55.9 43.9 62.5 14.5 8.8 32 16.9 51 25-0.2 8-0.3 15.9-0.4 23.7-0.6 36.9-1 69.3-9.7 96.8h-233.5c-8.6-27.5-9.1-59.9-9.7-96.8zM663.9 524.9c-29.7 17.1-72.3 27.4-129.1 31.2-12.6-5.4-24.3-10.7-33.9-15.9-14.2-7.6-19.3-12.5-20.9-14.4v-4.8c0-9.6 4.9-18.4 13.1-23.5 44.6-27.5 76-63.6 94.5-109.3 14.2 58.2 40.6 95.7 76.3 136.7zM259.9 114.2c24.6-33.8 65.2-50.2 124.1-50.2s99.5 16.4 124.2 50.2c13.3 18.2 22.8 42.1 28.7 72.1-22.3-8.2-42-25.1-59.6-51.2-3-4.5-8.1-7.1-13.5-7.1-5.4 0.1-10.4 2.9-13.3 7.4-48.3 76.3-122.5 115.8-226.3 120.3 1.7-64.6 13.4-110.9 35.7-141.5zM180.3 388.2c18.6 45.7 49.9 81.9 94.5 109.3 8.2 5.1 13.1 13.9 13.1 23.5v4.8c-1.6 1.9-6.6 6.8-20.9 14.4-9.7 5.2-21.3 10.4-33.9 15.9-56.8-3.8-99.4-14.1-129.1-31.2 35.8-41 62.2-78.5 76.3-136.7zM135.6 674.7c25-17.9 58.5-32.8 89.8-45.9 0.1 3.6 0.1 7.3 0.2 10.9 0.5 34.1 1 66.7 8.5 96.3h-138.1c0-14.1 4.1-35.8 39.6-61.3zM534 736c7.5-29.6 8-62.2 8.5-96.3 0.1-3.6 0.1-7.2 0.2-10.9 31.3 13.1 64.8 28 89.8 45.9 35.5 25.5 39.6 47.2 39.6 61.3h-138.1z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Easy for your colleagues &amp; customers.</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          Nothing to download, install or sign up for.  They record their screen in 2 clicks.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+        <path d="M741.3 340c-10-15.2-22.5-27.2-37.3-35.9v-48.1c0-39.6-8.8-76.4-26.2-109.5-16.5-31.5-40.3-58.8-70.8-81.3-28.9-21.3-63.1-37.7-101.6-48.8-37.7-10.9-78.5-16.4-121.4-16.4s-83.7 5.5-121.4 16.4c-38.5 11.1-72.7 27.5-101.6 48.8-30.5 22.5-54.4 49.8-70.8 81.3-17.4 33.1-26.2 69.9-26.2 109.5v48.1c-14.8 8.6-27.3 20.6-37.3 35.9-17.7 27-26.7 63.4-26.7 108s9 81 26.7 108c22.3 34 57.3 52 101.3 52h2.8c6.6 18.6 24.4 32 45.2 32 26.5 0 48-21.5 48-48v-288c0-26.5-21.5-48-48-48-20.9 0-38.6 13.4-45.2 32h-2.8v-32c0-132.6 128.6-192 256-192s256 59.4 256 192v32h-2.8c-6.6-18.6-24.4-32-45.2-32-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48 20.9 0 38.6-13.4 45.2-32h2.8v16c0 36-17.7 57.1-57.4 68.6-36.7 10.6-87.3 11.3-137.3 11.4-6.6-18.6-24.4-32-45.2-32-26.5 0-48 21.5-48 48s21.5 48 48 48c20.9 0 38.6-13.4 45.2-32 52.3 0 105.4-0.8 146.2-12.6 53.4-15.5 80.5-48.9 80.5-99.4v-19.5c29.1-6.8 52.7-23.2 69.3-48.4 17.7-27.1 26.7-63.5 26.7-108.1s-9-81-26.7-108zM64 448c0-96 48.2-96 64-96v192c-15.8 0-64 0-64-96zM160 304c0-8.8 7.2-16 16-16s16 7.2 16 16v288c0 8.8-7.2 16-16 16s-16-7.2-16-16v-288zM400 736c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM608 592c0 8.8-7.2 16-16 16s-16-7.2-16-16v-288c0-8.8 7.2-16 16-16s16 7.2 16 16v288zM640 544v-192c15.8 0 64 0 64 96s-48.2 96-64 96z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Works with your current workflows</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          Drop ZipMessage links into a regular email or Slack.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+        <path d="M731.3 455.1c24.4-37.2 36.7-77.3 36.7-119.1 0-38.2-10.4-75.1-30.9-109.7-19.2-32.4-46.4-61.4-80.9-86-68.9-49.2-159.8-76.3-256.2-76.3s-187.3 27.1-256.2 76.3c-34.5 24.6-61.7 53.6-80.9 86-20.5 34.6-30.9 71.5-30.9 109.7 0 37.7 10.1 74.2 30.1 108.4 16 27.4 37.7 52.4 64.8 74.4-7.4 47.7-50.6 85.5-112.5 126.5-11.8 7.8-17.1 22.4-13 35.9 4 13.5 16.5 22.8 30.6 22.8 90.2 0 169-29.8 219.2-54.8 36-17.9 62.8-35.9 77.2-46.3 15.4 2.2 31 3.7 46.6 4.5 5 0.2 10 0.4 15.1 0.5 5.8 6.4 12.2 12.6 19.3 18.3 36.1 29.5 83.9 45.8 134.6 45.8 14.1 0 28.1-1.3 41.8-3.8 24.8 26.2 67.9 35.8 102.2 35.8 7.3 0 13.7-4.8 15.6-11.8s-1.1-14.3-7.3-17.9c-1.6-1-21.8-14.3-25.2-42.3 41.4-30.4 64.9-73.7 64.9-120 0-17.2-3.2-34-9.4-49.9 1.6-2.4 3.2-4.7 4.7-7zM325.5 537.6c-9.2-1.6-18.5 0.8-25.8 6.7-0.3 0.2-30.3 24.5-78.6 48.3-21.2 10.5-48.1 21.9-79.1 30.9 30-33.2 49.9-71.9 49.9-119.6 0-10.2-4.9-19.8-13.2-25.9-53.3-38.8-82.7-89.3-82.7-142 0-53.5 30.2-104.5 85-143.7 58.1-41.5 135.9-64.3 219-64.3s160.9 22.8 219 64.3c54.8 39.2 85 90.2 85 143.7 0 23.7-5.8 46.7-17.3 68.8-2.6-2.4-5.3-4.7-8.1-7-36.1-29.5-83.9-45.8-134.6-45.8s-98.5 16.3-134.6 45.8c-37 30.3-57.4 70.9-57.4 114.2 0 10.1 1.1 20 3.3 29.7-10.1-1-20-2.4-29.8-4.1zM645.8 610.7c-4.5 3-7.2 8-7.2 13.3 0 17.4 4.3 31.7 10.2 43-18.4-4.8-35-13.2-43.7-25.6-3-4.3-8-6.8-13.1-6.8-1.2 0-2.4 0.1-3.6 0.4-14.4 3.3-29.3 5-44.4 5-88.2 0-160-57.4-160-128s71.8-128 160-128 160 57.4 160 128c0 38.2-21.2 74.2-58.2 98.7z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Threaded conversations</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          You and multiple contributors can post camera, screen, or text messages to a single, threaded conversation.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+        <path d="M760.6 267.5l-160-192c-6.1-7.3-15.1-11.5-24.6-11.5h-384c-9.5 0-18.5 4.2-24.6 11.5l-160 192c-10.3 12.3-9.8 30.3 1 42.1l352 384c6.1 6.6 14.6 10.4 23.6 10.4s17.5-3.8 23.6-10.4l352-384c10.8-11.8 11.2-29.8 1-42.1zM384 624.6l-309.5-337.6 132.5-159h354l132.5 159-309.5 337.6z"></path>
+        <path d="M528 160h-288c-4.7 0-9.1 2-12.1 5.6l-96 112c-5.2 6.1-5.1 15 0.2 21l240 272c3 3.4 7.4 5.4 12 5.4s9-2 12-5.4l240-272c5.3-6 5.3-14.9 0.2-21l-96-112c-3.2-3.6-7.6-5.6-12.3-5.6zM384 535.8l-218.8-248 82.2-95.8h273.3l82.2 95.8-218.9 248z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Custom-branded experience</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          Your colleagues interact with your brand, your colors, in a seamless experience.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+        <path d="M640 160c0-35.3-28.7-64-64-64 0-35.3-28.7-64-64-64h-256c-35.3 0-64 28.7-64 64-35.3 0-64 28.7-64 64-35.3 0-64 28.7-64 64v448c0 35.3 28.7 64 64 64h512c35.3 0 64-28.7 64-64v-448c0-35.3-28.7-64-64-64zM256 64h256c17.6 0 32 14.4 32 32h-320c0-17.6 14.4-32 32-32zM192 128h384c17.6 0 32 14.4 32 32h-448c0-17.6 14.4-32 32-32zM640 672h-512v-448h512v448c0.1 0 0 0 0 0z"></path>
+        <path d="M504.1 434.2l-192-112c-4.9-2.9-11.1-2.9-16-0.1-5 2.9-8 8.1-8 13.9v224c0 5.7 3.1 11 8 13.9 2.5 1.4 5.2 2.1 8 2.1s5.6-0.7 8.1-2.2l192-112c4.9-2.9 7.9-8.1 7.9-13.8s-3.1-11-8-13.8zM320 532.1v-168.2l144.2 84.1-144.2 84.1z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Export or embed videos</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          Embed vidoes in your site or elsewhere.  Download and save videos for use later.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="flex mb-2 p-6">
+      <div class="mr-6">
+        <svg class="w-7 h-7 text-brand-light-blue-600
+                    lg:w-8 lg:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" stroke="currentColor" fill="currentColor">
+        <path d="M576 320v-64c0-51.3-20-99.5-56.2-135.8s-84.5-56.2-135.8-56.2-99.5 20-135.8 56.2-56.2 84.5-56.2 135.8v64c-35.3 0-64 28.7-64 64v256c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64v-256c0-35.3-28.7-64-64-64zM256 256c0-70.6 57.4-128 128-128s128 57.4 128 128v64h-256v-64zM576 640h-384v-256h384v256c0.1 0 0 0 0 0z"></path>
+        <path d="M288 480c-17.6 0-32 14.4-32 32s14.4 32 32 32 32-14.4 32-32-14.4-32-32-32zM288 512c0 0 0 0 0 0v0z"></path>
+        <path d="M384 480c-17.6 0-32 14.4-32 32s14.4 32 32 32c17.6 0 32-14.4 32-32s-14.4-32-32-32zM384 512c0 0 0 0 0 0v0z"></path>
+        <path d="M480 480c-17.6 0-32 14.4-32 32s14.4 32 32 32 32-14.4 32-32-14.4-32-32-32zM480 512c0 0 0 0 0 0v0z"></path>
+        </svg>
+      </div>
+      <div class="flex-1">
+        <h3 class="text-brand-light-blue-600 font-medium text-2xl mb-2 
+                   lg:text-2xl">Control who can see what</h3>
+        <p class="text-xl text-brand-blue-300 
+                  lg:w-3/4 
+                  xl:w-4/5">
+          Invite-only or viewable by anyone with the link.  You’re in control of who can view and reply to a message.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!--/ Features -->
+
+{%- include integrations.html homepage="true" -%}
+
+<div class="bg-gradient-to-b to-brand-light-blue-300 from-white text-center pb-20 px-8 relative -top-2px 
             md:pb-28 
             xl:pb-56">
 
