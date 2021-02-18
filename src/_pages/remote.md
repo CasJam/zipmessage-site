@@ -65,7 +65,7 @@ image: /assets/images/zipmessage-og.png
 
   <div class="absolute top-0 left-0 z-50 w-full mt-0
               lg:static lg:mt-20 lg:w-1/3">
-    <div class="absolute -top-44 left-0 w-2/3 bg-brand-red-500 rounded-r-md p-4 bg-opacity-90 
+    <div class="absolute -top-44 left-0 w-2/3 bg-green-500 rounded-r-md p-4 bg-opacity-90 
                 xs:w-1/2
                 sm:w-2/5 
                 md:w-1/3
@@ -74,77 +74,77 @@ image: /assets/images/zipmessage-og.png
                   lg:block lg:bottom-0 lg:top-auto lg:-right-60 lg:w-60">
         <span class="absolute right-0 flex h-5 w-5 flex-col justify-center items-center" 
                      style="top:-9px;right:-6px;">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-red-500 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-red-500"></span>
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
         </span>
-        <div class="border-b-2 border-brand-red-500 w-full relative right-1px"></div>              
+        <div class="border-b-2 border-green-500 w-full relative right-1px"></div>              
       </div>
       <div class="absolute -bottom-4 -right-4 w-8 h-8 rounded-full 
                   lg:static lg:w-10 lg:h-10 lg:mr-8">
-        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-brand-red-200 bg-brand-red-500 text-white rounded-full 
-                    lg:bg-brand-red-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
+        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-green-200 bg-green-500 text-white rounded-full 
+                    lg:bg-green-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
           1
         </div>
-        <div class="absolute w-8 h-8 bg-brand-red-500 animate-ping rounded-full z-40 
+        <div class="absolute w-8 h-8 bg-green-500 animate-ping rounded-full z-40 
                     lg:hidden"></div>
       </div>
       
       <div class="flex-1 text-base text-white font-medium 
-                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-brand-red-500">
+                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-green-500">
         Share your ZipMessage link with a customer to invite them to a conversation.
       </div>
     </div>
 
-    <div class="absolute top-64 right-0 w-1/2 bg-brand-red-500 rounded-l-md p-4 bg-opacity-90 
+    <div class="absolute top-64 right-0 w-1/2 bg-green-500 rounded-l-md p-4 bg-opacity-90 
                 md:top-96 md:mt-12
                 lg:relative lg:top-auto lg:left-auto lg:w-auto lg:flex lg:bg-transparent lg:mt-0 lg:mr-12 lg:mb-32 lg:bg-opacity-100 lg:p-0">
       <div class="hidden absolute bottom-0 -right-20 w-20 z-50 
                   lg:block lg:-right-44 lg:w-44">
         <span class="absolute right-0 flex h-5 w-5 flex-col justify-center items-center" 
                      style="top:-9px;right:-6px;">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-red-500 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-red-500"></span>
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
         </span>
-        <div class="border-b-2 border-brand-red-500 w-full relative right-1px"></div>              
+        <div class="border-b-2 border-green-500 w-full relative right-1px"></div>              
       </div>
       <div class="absolute -top-4 -left-4 w-8 h-8 rounded-full 
                   lg:static lg:w-10 lg:h-10 lg:mr-8">
-        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-brand-blue-100 bg-brand-red-500 text-white rounded-full 
-                    lg:bg-brand-red-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
+        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-brand-blue-100 bg-green-500 text-white rounded-full 
+                    lg:bg-green-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
           2
         </div>
-        <div class="absolute w-8 h-8 bg-brand-red-500 animate-ping rounded-full z-40 
+        <div class="absolute w-8 h-8 bg-green-500 animate-ping rounded-full z-40 
                     lg:hidden"></div>
       </div>
       <div class="flex-1 text-base text-white font-medium 
-                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-brand-red-500">
+                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-green-500">
         They record their response with just 2 clicks.  Nothing to download or install.
       </div>
     </div>
 
-    <div class="absolute top-96 mt-64 w-1/2 left-0 bg-brand-red-500 rounded-r-md p-4 bg-opacity-90 
+    <div class="absolute top-96 mt-64 w-1/2 left-0 bg-green-500 rounded-r-md p-4 bg-opacity-90 
                 md:mt-80
                 lg:static lg:relative lg:top-auto lg:mt-0 lg:flex lg:bg-transparent lg:mt-0 lg:mr-12 lg:w-auto lg:mb-32 lg:bg-opacity-100 lg:p-0">
       <div class="hidden absolute top-12 -right-20 w-20 z-50 transform origin-top-left rotate-45 
                   lg:block lg:bottom-0 lg:top-auto lg:-right-60 lg:w-60">
         <span class="absolute right-0 flex h-5 w-5 flex-col justify-center items-center" 
                      style="top:-9px;right:-6px;">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-red-500 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-red-500"></span>
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
         </span>
-        <div class="border-b-2 border-brand-red-500 w-full relative right-1px"></div>              
+        <div class="border-b-2 border-green-500 w-full relative right-1px"></div>              
       </div>
       <div class="absolute -top-4 -right-4 w-8 h-8 rounded-full 
                   lg:static lg:w-10 lg:h-10 lg:mr-8">
-        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-brand-blue-100 bg-brand-red-500 text-white rounded-full 
-                    lg:bg-brand-red-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
+        <div class="absolute z-50 w-8 h-8 flex flex-col justify-center items-center font-semibold text-base font-brand border-4 border-brand-blue-100 bg-green-500 text-white rounded-full 
+                    lg:bg-green-500 lg:border-white lg:text-white lg:w-10 lg:h-10 lg:text-lg">
           3
         </div>
-        <div class="absolute w-8 h-8 bg-brand-red-500 animate-ping rounded-full z-40 
+        <div class="absolute w-8 h-8 bg-green-500 animate-ping rounded-full z-40 
                     lg:hidden"></div>
       </div>
       <div class="flex-1 text-base text-white font-medium 
-                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-brand-red-500">
+                  lg:text-xl lg:pb-4 lg:border-b-2 lg:border-green-500">
         Continue the conversation asynchronously.
       </div>
     </div>
